@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		229078AD198AA41100444B57 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229078AC198AA41100444B57 /* Cocoa.framework */; };
+		229078B7198AA41100444B57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 229078B5198AA41100444B57 /* InfoPlist.strings */; };
+		229078B9198AA41100444B57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 229078B8198AA41100444B57 /* main.m */; };
+		229078BD198AA41100444B57 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 229078BB198AA41100444B57 /* Credits.rtf */; };
+		229078C0198AA41100444B57 /* CLIPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 229078BF198AA41100444B57 /* CLIPAppDelegate.m */; };
+		229078C3198AA41100444B57 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 229078C1198AA41100444B57 /* MainMenu.xib */; };
+		229078C5198AA41100444B57 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 229078C4198AA41100444B57 /* Images.xcassets */; };
+		229078CC198AA41100444B57 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229078CB198AA41100444B57 /* XCTest.framework */; };
+		229078CD198AA41100444B57 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229078AC198AA41100444B57 /* Cocoa.framework */; };
+		229078D5198AA41100444B57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 229078D3198AA41100444B57 /* InfoPlist.strings */; };
+		229078D7198AA41100444B57 /* ClippyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 229078D6198AA41100444B57 /* ClippyTests.m */; };
+		229078E5198AAAD400444B57 /* Dropbox.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 229078E0198AA94F00444B57 /* Dropbox.framework */; };
+		229078E7198AADAC00444B57 /* Dropbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229078E0198AA94F00444B57 /* Dropbox.framework */; };
+		2295A8E9198AFC9D00C65D03 /* CLIPPasteboardPoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 2295A8E8198AFC9D00C65D03 /* CLIPPasteboardPoller.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		229078CE198AA41100444B57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 229078A1198AA41100444B57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 229078A8198AA41100444B57;
+			remoteInfo = Clippy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		229078E4198AAABB00444B57 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				229078E5198AAAD400444B57 /* Dropbox.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		229078A9198AA41100444B57 /* Clippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		229078AC198AA41100444B57 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		229078AF198AA41100444B57 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		229078B0198AA41100444B57 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		229078B1198AA41100444B57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		229078B4198AA41100444B57 /* Clippy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Clippy-Info.plist"; sourceTree = "<group>"; };
+		229078B6198AA41100444B57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		229078B8198AA41100444B57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		229078BA198AA41100444B57 /* Clippy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Clippy-Prefix.pch"; sourceTree = "<group>"; };
+		229078BC198AA41100444B57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		229078BE198AA41100444B57 /* CLIPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLIPAppDelegate.h; sourceTree = "<group>"; };
+		229078BF198AA41100444B57 /* CLIPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLIPAppDelegate.m; sourceTree = "<group>"; };
+		229078C2198AA41100444B57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		229078C4198AA41100444B57 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		229078CA198AA41100444B57 /* ClippyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClippyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		229078CB198AA41100444B57 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		229078D2198AA41100444B57 /* ClippyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClippyTests-Info.plist"; sourceTree = "<group>"; };
+		229078D4198AA41100444B57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		229078D6198AA41100444B57 /* ClippyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClippyTests.m; sourceTree = "<group>"; };
+		229078E0198AA94F00444B57 /* Dropbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Dropbox.framework; sourceTree = "<group>"; };
+		2295A8E7198AFC9D00C65D03 /* CLIPPasteboardPoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLIPPasteboardPoller.h; sourceTree = "<group>"; };
+		2295A8E8198AFC9D00C65D03 /* CLIPPasteboardPoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLIPPasteboardPoller.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		229078A6198AA41100444B57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229078AD198AA41100444B57 /* Cocoa.framework in Frameworks */,
+				229078E7198AADAC00444B57 /* Dropbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229078C7198AA41100444B57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229078CD198AA41100444B57 /* Cocoa.framework in Frameworks */,
+				229078CC198AA41100444B57 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		229078A0198AA41100444B57 = {
+			isa = PBXGroup;
+			children = (
+				229078B2198AA41100444B57 /* Clippy */,
+				229078D0198AA41100444B57 /* ClippyTests */,
+				229078AB198AA41100444B57 /* Frameworks */,
+				229078AA198AA41100444B57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		229078AA198AA41100444B57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				229078A9198AA41100444B57 /* Clippy.app */,
+				229078CA198AA41100444B57 /* ClippyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		229078AB198AA41100444B57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				229078E0198AA94F00444B57 /* Dropbox.framework */,
+				229078AC198AA41100444B57 /* Cocoa.framework */,
+				229078CB198AA41100444B57 /* XCTest.framework */,
+				229078AE198AA41100444B57 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		229078AE198AA41100444B57 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				229078AF198AA41100444B57 /* AppKit.framework */,
+				229078B0198AA41100444B57 /* CoreData.framework */,
+				229078B1198AA41100444B57 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		229078B2198AA41100444B57 /* Clippy */ = {
+			isa = PBXGroup;
+			children = (
+				229078BE198AA41100444B57 /* CLIPAppDelegate.h */,
+				229078BF198AA41100444B57 /* CLIPAppDelegate.m */,
+				2295A8E7198AFC9D00C65D03 /* CLIPPasteboardPoller.h */,
+				2295A8E8198AFC9D00C65D03 /* CLIPPasteboardPoller.m */,
+				229078C1198AA41100444B57 /* MainMenu.xib */,
+				229078C4198AA41100444B57 /* Images.xcassets */,
+				229078B3198AA41100444B57 /* Supporting Files */,
+			);
+			path = Clippy;
+			sourceTree = "<group>";
+		};
+		229078B3198AA41100444B57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				229078B4198AA41100444B57 /* Clippy-Info.plist */,
+				229078B5198AA41100444B57 /* InfoPlist.strings */,
+				229078B8198AA41100444B57 /* main.m */,
+				229078BA198AA41100444B57 /* Clippy-Prefix.pch */,
+				229078BB198AA41100444B57 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		229078D0198AA41100444B57 /* ClippyTests */ = {
+			isa = PBXGroup;
+			children = (
+				229078D6198AA41100444B57 /* ClippyTests.m */,
+				229078D1198AA41100444B57 /* Supporting Files */,
+			);
+			path = ClippyTests;
+			sourceTree = "<group>";
+		};
+		229078D1198AA41100444B57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				229078D2198AA41100444B57 /* ClippyTests-Info.plist */,
+				229078D3198AA41100444B57 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		229078A8198AA41100444B57 /* Clippy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229078DA198AA41100444B57 /* Build configuration list for PBXNativeTarget "Clippy" */;
+			buildPhases = (
+				229078E4198AAABB00444B57 /* CopyFiles */,
+				229078A5198AA41100444B57 /* Sources */,
+				229078A6198AA41100444B57 /* Frameworks */,
+				229078A7198AA41100444B57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clippy;
+			productName = Clippy;
+			productReference = 229078A9198AA41100444B57 /* Clippy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		229078C9198AA41100444B57 /* ClippyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229078DD198AA41100444B57 /* Build configuration list for PBXNativeTarget "ClippyTests" */;
+			buildPhases = (
+				229078C6198AA41100444B57 /* Sources */,
+				229078C7198AA41100444B57 /* Frameworks */,
+				229078C8198AA41100444B57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				229078CF198AA41100444B57 /* PBXTargetDependency */,
+			);
+			name = ClippyTests;
+			productName = ClippyTests;
+			productReference = 229078CA198AA41100444B57 /* ClippyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		229078A1198AA41100444B57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CLIP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = tijo;
+				TargetAttributes = {
+					229078C9198AA41100444B57 = {
+						TestTargetID = 229078A8198AA41100444B57;
+					};
+				};
+			};
+			buildConfigurationList = 229078A4198AA41100444B57 /* Build configuration list for PBXProject "Clippy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 229078A0198AA41100444B57;
+			productRefGroup = 229078AA198AA41100444B57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				229078A8198AA41100444B57 /* Clippy */,
+				229078C9198AA41100444B57 /* ClippyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		229078A7198AA41100444B57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229078B7198AA41100444B57 /* InfoPlist.strings in Resources */,
+				229078C5198AA41100444B57 /* Images.xcassets in Resources */,
+				229078BD198AA41100444B57 /* Credits.rtf in Resources */,
+				229078C3198AA41100444B57 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229078C8198AA41100444B57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229078D5198AA41100444B57 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		229078A5198AA41100444B57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229078C0198AA41100444B57 /* CLIPAppDelegate.m in Sources */,
+				229078B9198AA41100444B57 /* main.m in Sources */,
+				2295A8E9198AFC9D00C65D03 /* CLIPPasteboardPoller.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229078C6198AA41100444B57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229078D7198AA41100444B57 /* ClippyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		229078CF198AA41100444B57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 229078A8198AA41100444B57 /* Clippy */;
+			targetProxy = 229078CE198AA41100444B57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		229078B5198AA41100444B57 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				229078B6198AA41100444B57 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		229078BB198AA41100444B57 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				229078BC198AA41100444B57 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		229078C1198AA41100444B57 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				229078C2198AA41100444B57 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		229078D3198AA41100444B57 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				229078D4198AA41100444B57 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		229078D8198AA41100444B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		229078D9198AA41100444B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		229078DB198AA41100444B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Clippy/Clippy-Prefix.pch";
+				INFOPLIST_FILE = "Clippy/Clippy-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		229078DC198AA41100444B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Clippy/Clippy-Prefix.pch";
+				INFOPLIST_FILE = "Clippy/Clippy-Info.plist";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		229078DE198AA41100444B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Clippy.app/Contents/MacOS/Clippy";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Clippy/Clippy-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ClippyTests/ClippyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		229078DF198AA41100444B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Clippy.app/Contents/MacOS/Clippy";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Clippy/Clippy-Prefix.pch";
+				INFOPLIST_FILE = "ClippyTests/ClippyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		229078A4198AA41100444B57 /* Build configuration list for PBXProject "Clippy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229078D8198AA41100444B57 /* Debug */,
+				229078D9198AA41100444B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		229078DA198AA41100444B57 /* Build configuration list for PBXNativeTarget "Clippy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229078DB198AA41100444B57 /* Debug */,
+				229078DC198AA41100444B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		229078DD198AA41100444B57 /* Build configuration list for PBXNativeTarget "ClippyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229078DE198AA41100444B57 /* Debug */,
+				229078DF198AA41100444B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 229078A1198AA41100444B57 /* Project object */;
+}
